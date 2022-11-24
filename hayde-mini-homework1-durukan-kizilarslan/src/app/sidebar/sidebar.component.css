@@ -1,0 +1,19 @@
+#sidebar-elements-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+#user-image-sidebar{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#user-image-sidebar img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    margin-top: 50px;
+}
