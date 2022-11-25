@@ -1,3 +1,12 @@
+<div>
+    <!-- Hello, Padma -->
+    <h1>Hello, {{teamTitle}}</h1>
+    <ul>
+      <!-- Ebony and Chiho in a list-->
+      <li *ngFor="let member of teamMembers">{{ member.value }}</li>
+    </ul>
+  </div>
+
 <app-my-first-component></app-my-first-component>
 <app-contact-form></app-contact-form>
 <app-my-third-component></app-my-third-component>

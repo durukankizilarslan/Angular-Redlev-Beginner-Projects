@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-angular-project-redlev';
+
+  teamTitle = 'HaydeSoft';
+  teamMembers = [
+    {value: "Serdar Kaya"},
+    {value: "Banu Baysal"},
+    {value: "Yavuz Kemal Bayrakci"},
+    {value: "Durukan Kizilarslan"}
+  ]
 }

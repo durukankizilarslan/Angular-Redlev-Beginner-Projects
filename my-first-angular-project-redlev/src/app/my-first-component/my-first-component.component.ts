@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-first-component.component.css']
 })
 export class MyFirstComponentComponent {
+  teamtTitle: string = "HaydeSoft" ;
 
+}
+
+export class HaydeSoftTeam {
+  teamTitle: string = "HaydeSoft";
+  
 }
