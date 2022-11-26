@@ -9,13 +9,19 @@ import {StyleClassModule} from 'primeng/styleclass';
 import { AccordionModule } from 'primeng/accordion';
 import { PanelModule } from 'primeng/panel';
 import { ButtonModule } from 'primeng/button';
+import { HeaderComponent } from './header/header.component';
+import { MainComponent } from './main/main.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    SidebarComponent
+    SidebarComponent,
+    HeaderComponent,
+    MainComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
